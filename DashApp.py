@@ -21,7 +21,7 @@ plot_height = st.sidebar.slider('Specify plot height', 200, 500, 250)
 
 st.sidebar.markdown('''
 ---
-Created with ❤️ by Brajesh.
+Created with ❤️❤️ by Brajesh.
 ''')
 
 
