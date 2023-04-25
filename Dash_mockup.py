@@ -37,6 +37,6 @@ Created with ❤️❤️ by Brajesh.
 #Row A
 st.markdown('### Metrics')
 col1, col2, col3 = st.columns(3)
-col1.metric("Algo% (Annual)", algo_percent, "5%")
+col1.metric("Algo% (Annual)", algo_percent, "15%")
 col2.metric("ITM", itm_total, "-2")
 col3.metric("Algo% (This Month)", algo_percent_thisMonth, "1")
