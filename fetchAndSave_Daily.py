@@ -30,7 +30,6 @@ def fetchData(date):
         print('Request failed:{0}, Reason: {1}'.format(r.status_code, r.reason))
         jsonResponse = []
         df=pd.DataFrame([])
-        #Removes all ASE rows leaving only quoted legs 
     
     if os.path.isfile(filelocation+'fills_of_date_'+toDate+'.csv'):
         os.remove(filelocation+'fills_of_date_'+toDate+'.csv')
