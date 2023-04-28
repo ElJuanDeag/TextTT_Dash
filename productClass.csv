@@ -1,0 +1,209 @@
+productCode,productClass
+AP,Indices & Stocks
+IB,Australian STIRs
+IR,Australian STIRs
+LT,Australian STIRs
+XT,Australian STIRs
+YT,Australian STIRs
+FCPO,Agricultural
+BRL,Brazilian STIRs
+DI1,Brazilian STIRs
+VX,Indices & Stocks
+EH,Energy
+F1U,American STIRs
+LIT,American STIRs
+LIW,American STIRs
+LIY,American STIRs
+MYM,Indices & Stocks
+N1U,American STIRs
+TN,American STIRs
+UB,American STIRs
+WEU,Agricultural
+XK,Agricultural
+YM,Indices & Stocks
+ZB,American STIRs
+ZC,Agricultural
+ZD,Indices & Stocks
+ZF,American STIRs
+ZF|ZN,American STIRs
+ZL,Agricultural
+ZM,Agricultural
+ZM|ZL|ZS,Agricultural
+ZN,American STIRs
+ZO,Agricultural
+ZQ,American STIRs
+ZR,Agricultural
+ZS,Agricultural
+ZT,American STIRs
+ZW,Agricultural
+Z3N,American STIRs
+6A,Currency
+6B,Currency
+6C,Currency
+6E,Currency
+6J,Currency
+6L,Currency
+6M,Currency
+6N,Currency
+6S,Currency
+AW,Indices & Stocks
+BTC,Indices & Stocks
+CNH,Currency
+CSC,Softs
+DC,Softs
+E7,Currency
+EMD,Indices & Stocks
+ES,Indices & Stocks
+GD,Indices & Stocks
+GE,American STIRs
+GF,Livestock
+HE,Livestock
+LE,Livestock
+MPC,European STIRs
+NIY,Indices & Stocks
+NKD,Indices & Stocks
+NQ,Indices & Stocks
+PJY,Currency
+RF,Currency
+RP,Currency
+SIR,Currency
+SON,European STIRs
+SR1,American STIRs
+SR3,American STIRs
+GC,Metals
+HG,Metals
+SI,Metals
+OQD,Energy
+kFTI,Indices & Stocks
+jFCE,Indices & Stocks
+jPRE,Indices & Stocks
+yEBM,Agricultural
+yECO,Agricultural
+yEMA,Agricultural
+FBTP,European STIRs
+FBTS,European STIRs
+FDAX,Indices & Stocks
+FESB,Indices & Stocks
+FESX,Indices & Stocks
+FGBL,European STIRs
+FGBM,European STIRs
+FGBS,European STIRs
+FGBX,European STIRs
+FMEU,Indices & Stocks
+FOAT,European STIRs
+FSMI,Indices & Stocks
+FSTB,Indices & Stocks
+FVS,Indices & Stocks
+BRN,Energy
+CER,Energy
+DBI,Energy
+ECF,Energy
+G,Energy
+G|BRN,Energy
+GWM,Energy
+HOU,Energy
+HOU|BRN,Energy
+SF1,American STIRs
+SF3,American STIRs
+WBS,Energy
+CC,Softs
+CT,Softs
+DX,Currency
+FNG,Indices & Stocks
+IBO,Agricultural
+ICN,Agricultural
+IS,Agricultural
+ISM,Agricultural
+IW,Agricultural
+KC,Softs
+MFS,Indices & Stocks
+MME,Indices & Stocks
+NT,Currency
+OJ,Softs
+RS,Agricultural
+SB,Softs
+TF,Indices & Stocks
+KE,Agricultural
+C,Softs
+EO3,European STIRs
+G1,European STIRs
+H,European STIRs
+I,European STIRs
+L,European STIRs
+PBJ R,European STIRs
+R,European STIRs
+RBE R,European STIRs
+RC,Softs
+S,European STIRs
+SO3,European STIRs
+SOA,European STIRs
+U,European STIRs
+W,Softs
+Z,Indices & Stocks
+AH,Metals
+CA,Metals
+NI,Metals
+PB,Metals
+ZS,Metals
+MWE,Agricultural
+GOQ,Energy
+TQ,Energy
+NI,IR
+NL,IR
+BZ,Energy
+CL,Energy
+HCL,Energy
+HO,Energy
+NG,Energy
+PA,Metals
+PL,Metals
+QG,Energy
+QM,Energy
+RB,Energy
+NK225,Indices & Stocks
+CN,Indices & Stocks
+IN,Indices & Stocks
+IU,Currency
+JB,Asian STIRs
+NCH,Indices & Stocks
+NEM,Indices & Stocks
+NK,Indices & Stocks
+NVN,Indices & Stocks
+TW,Indices & Stocks
+UC,Currency
+EY,Asian STIRs
+BAX,American STIRs
+CGB,American STIRs
+CGF,American STIRs
+SXF,Indices & Stocks
+GASO,Energy
+GOLD,Metals
+PLAT,Metals
+RSS3,Wood&Rubber
+JGBL,Asian STIRs
+SR3|GE,American STIRs
+SR1|ZQ,American STIRs
+WBS|BRN,Energy
+SA3,European STIRs
+WDO,American STIRs
+ESR,European STIRs
+MNQ,Indices & Stocks
+SED,Currency
+ISP,Energy
+MES,Indices & Stocks
+MGC,Metals
+MHG,Metals
+NR.es,Wood&Rubber
+WSP,Indices & Stocks
+ALI,Metals
+CLT,Energy
+WBS_Z,Energy
+MCL,Energy
+EUS,Currency
+FDXM,Indices & Stocks
+CRA,American STIRs
+HH,Energy
+UHO,Energy
+FEF,Metals
+ADM,Energy
+G_Z,Energy
