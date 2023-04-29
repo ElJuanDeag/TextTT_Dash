@@ -64,6 +64,26 @@ df['algofill']=np.where(df['algo']=='Manual',0, df['fillQty'])
 df['algofill']=np.where(df['algo']=='Manual',0, df['fillQty'])
 pivot_table=df.pivot_table(index=['year_month','itm','ttProductCode', 'algo','algoName'], values=['algofill','fillQty'], aggfunc='sum').reset_index()
 
+productdf=pd.read_csv("productClass.csv")
+productClassDict=dict(zip(productdf.productCode,productdf.productClass))
+
+batchdf=pd.read_csv("batchList.csv",names=['itm','batch'],header=None)
+batchDict=dict(zip(batchdf.itm,batchdf.batch))
+
+def get_product_class(row):
+    if row['ttProductCode'] in productClassDict:
+        return productClassDict[row['ttProductCode']]
+    else:
+        return None
+    
+def get_batch(row):
+    if row['itm'] in batchDict:
+        return batchDict[row['itm']]
+    else:
+        return None
+    
+pivot['productClass'] = pivot.apply(get_product_class, axis=1)
+pivot['batch'] = pivot.apply(get_batch, axis=1)
 
 if os.path.isfile(filelocation+'pivot.csv'):
     os.remove(filelocation+'pivot.csv')
