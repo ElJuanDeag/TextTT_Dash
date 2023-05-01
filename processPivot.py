@@ -10,6 +10,7 @@ import re
 import glob
 import tqdm
 
+
 filelocation='C:\\Python\\TextTT_Dash\\fills_folder\\'
 
 csv_files = glob.glob(filelocation+'fills_of_date_'+'*.csv')
@@ -82,8 +83,8 @@ def get_batch(row):
     else:
         return None
     
-pivot['productClass'] = pivot.apply(get_product_class, axis=1)
-pivot['batch'] = pivot.apply(get_batch, axis=1)
+pivot_table['productClass'] = pivot_table.apply(get_product_class, axis=1)
+pivot_table['batch'] = pivot_table.apply(get_batch, axis=1)
 
 if os.path.isfile(filelocation+'pivot.csv'):
     os.remove(filelocation+'pivot.csv')
