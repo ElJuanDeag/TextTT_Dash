@@ -13,13 +13,22 @@ last_month=str(datetime.now().year)+"/"+str(datetime.now().month-1)
 df=pd.read_csv("c:\\Python\\TextTT_Dash\\fills_folder\\pivot.csv")
 df_thisMonth=df.loc[df['year_month']==this_month]
 df_lastMonth=df.loc[df['year_month']==last_month]
+
 itm_list=df['itm'].unique()
 itm_list.sort(axis=0)
+itm_list_options=np.insert(itm_list,0,"All")
+itm_total=len(itm_list)
+
 product_list=df['ttProductCode'].unique()
 product_list.sort(axis=0)
 product_list_options=np.insert(product_list,0,"All")
-itm_list_options=np.insert(itm_list,0,"All")
-itm_total=len(itm_list)
+product_total=len(product_list)
+
+productClass_list=df['productClass'].unique()
+#productClass_list.sort(axis=0)
+productClass_list_options=np.insert(productClass_list,0,"All")
+productClass_total=len(itm_list)
+
 algo_percent=round((df['algofill'].sum()/df['fillQty'].sum())*100,2)
 algo_percent_thisMonth=round((df_thisMonth['algofill'].sum()/df_thisMonth['fillQty'].sum())*100,2)
 algo_percent_lastMonth=round((df_lastMonth['algofill'].sum()/df_lastMonth['fillQty'].sum())*100,2)
@@ -49,6 +58,13 @@ product_multiselect_choice = st.sidebar.multiselect(
     "All",
     label_visibility="collapsed")
 
+st.sidebar.subheader('Select Product Group(s)') 
+productClass_multiselect_choice = st.sidebar.multiselect(
+    'Select User(s)',
+    productClass_list_options,
+    "All",
+    label_visibility="collapsed")
+
 st.sidebar.markdown('''
 ---
 Created with ❤️ by Brajesh.
@@ -57,6 +73,6 @@ Created with ❤️ by Brajesh.
 #Row A
 st.markdown('### Metrics')
 col1, col2, col3 = st.columns(3)
-col1.metric("Algo% (Annual)", algo_percent, "15%")
+col1.metric("Products total", product_total, "15%")
 col2.metric("ITM", itm_total, "-2")
-col3.metric("Algo% (This Month)", algo_percent_thisMonth, str(round(algo_percent_thisMonth-algo_percent_lastMonth,2))+"%")
+col3.metric("Algo% (This Month)", this_month, str(round(algo_percent_thisMonth-algo_percent_lastMonth,2))+"%")
